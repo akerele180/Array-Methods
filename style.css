@@ -1,0 +1,75 @@
+/* <a href='https://www.freepik.com/photos/food'>Food photo created by wirestock - www.freepik.com</a> */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 18px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  margin-top: 0.2rem;
+}
+main {
+  display: flex;
+  margin: 0 auto;
+  width: 550px;
+}
+div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  /* border-left: 1px solid #000; */
+}
+.answer {
+  padding-top: 5px;
+  justify-content: space-between;
+}
+.total {
+  border-top: 2px solid black;
+  line-height: 1.5rem;
+  background-color: #fff;
+}
+aside {
+  padding-right: 10px;
+  width: 35%;
+  border-right: 1px solid #000;
+}
+section {
+  padding-left: 10px;
+  width: 65%;
+}
+button {
+  width: 100%;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  background-color: #fff;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  border: 1px solid #000;
+  cursor: pointer;
+  display: block;
+}
+button:last-child {
+  margin: 0;
+}
+button:hover {
+  background-color: #d1d0d0;
+}
+.person {
+  width: 100%;
+}
+span {
+  font-weight: lighter;
+  float: right;
+}
